@@ -18,7 +18,7 @@ namespace wordsearch
 
         private Color boxBackgroundColor = new Color();
         private Color letterColor = new Color();
-        private static int xOffset = 310;
+        private static int xOffset = 340;
         private static int yOffset = 142;
         private static int cellSize = 22;
         private static int printCellSize = 32;
@@ -311,14 +311,14 @@ namespace wordsearch
                 placed = false;
                 tries = 0;
 
-                // shuffle the directions
-                utility.shuffle(directions);
-
                 do
                 {
                     // choose a random starting coordinate
                     x = rand.Next(0, Convert.ToInt16(xComboBox.SelectedItem));
                     y = rand.Next(0, Convert.ToInt16(yComboBox.SelectedItem));
+
+                    // shuffle the directions
+                    utility.shuffle(directions);
 
                     // if the starting spot is empty, or it contains the right letter
                     if (masterGrid[x, y].Equals(Convert.ToChar(" ")) || masterGrid[x, y].Equals((Convert.ToChar(words[w].Substring(0, 1)))))
@@ -377,7 +377,7 @@ namespace wordsearch
 
                                 }
 
-                                // once it is placed, no longer need to just other directions or starting points
+                                // once it is placed, no longer need to try other directions or starting points
                                 if (placed)
                                 {
                                     break;
@@ -387,7 +387,7 @@ namespace wordsearch
                         }
                     }
 
-                    // if we could not place it, we'lll keep trying until we reach a limit
+                    // if we could not place it, we'll keep trying until we reach a limit
                     if (!placed)
                     {
                         tries++;
@@ -594,7 +594,7 @@ namespace wordsearch
             Rectangle rc2 = new Rectangle(60, 1050, 700, 1050);
             StringFormat sf2 = new StringFormat();
             sf2.Alignment = StringAlignment.Far;
-            e.Graphics.DrawString("Creating with Word Search Maker. http://tiger84.com", ft10, Brushes.Black, rc2, sf2);
+            e.Graphics.DrawString("Creating with Word Search Maker. https://github.com/sgbrowning", ft10, Brushes.Black, rc2, sf2);
 
         }
 
@@ -782,6 +782,5 @@ namespace wordsearch
             creatingPuzzlesForm f = new creatingPuzzlesForm();
             f.ShowDialog();
         }
-
     }
 }

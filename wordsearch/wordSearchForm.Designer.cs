@@ -120,46 +120,56 @@
             this.printDialog = new System.Windows.Forms.PrintDialog();
             this.printPreviewDialog = new System.Windows.Forms.PrintPreviewDialog();
             this.printDocument = new System.Drawing.Printing.PrintDocument();
+            this.wordListLabel = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // titleTextBox
             // 
-            this.titleTextBox.Location = new System.Drawing.Point(98, 44);
+            this.titleTextBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleTextBox.Location = new System.Drawing.Point(98, 51);
             this.titleTextBox.Name = "titleTextBox";
-            this.titleTextBox.Size = new System.Drawing.Size(181, 20);
+            this.titleTextBox.Size = new System.Drawing.Size(181, 21);
             this.titleTextBox.TabIndex = 0;
             // 
             // titleLabel
             // 
             this.titleLabel.AutoSize = true;
-            this.titleLabel.Location = new System.Drawing.Point(31, 47);
+            this.titleLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLabel.Location = new System.Drawing.Point(31, 54);
             this.titleLabel.Name = "titleLabel";
-            this.titleLabel.Size = new System.Drawing.Size(61, 13);
+            this.titleLabel.Size = new System.Drawing.Size(68, 15);
             this.titleLabel.TabIndex = 1;
             this.titleLabel.Text = "Puzzle Title";
             // 
             // columnsLabel
             // 
             this.columnsLabel.AutoSize = true;
-            this.columnsLabel.Location = new System.Drawing.Point(34, 88);
+            this.columnsLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.columnsLabel.Location = new System.Drawing.Point(34, 95);
             this.columnsLabel.Name = "columnsLabel";
-            this.columnsLabel.Size = new System.Drawing.Size(47, 13);
+            this.columnsLabel.Size = new System.Drawing.Size(58, 15);
             this.columnsLabel.TabIndex = 2;
             this.columnsLabel.Text = "Columns";
             // 
             // rowsLabel
             // 
             this.rowsLabel.AutoSize = true;
-            this.rowsLabel.Location = new System.Drawing.Point(177, 88);
+            this.rowsLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rowsLabel.Location = new System.Drawing.Point(177, 95);
             this.rowsLabel.Name = "rowsLabel";
-            this.rowsLabel.Size = new System.Drawing.Size(34, 13);
+            this.rowsLabel.Size = new System.Drawing.Size(39, 15);
             this.rowsLabel.TabIndex = 3;
             this.rowsLabel.Text = "Rows";
             // 
             // xComboBox
             // 
+            this.xComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.xComboBox.FormattingEnabled = true;
             this.xComboBox.Items.AddRange(new object[] {
             "4",
@@ -179,14 +189,15 @@
             "18",
             "19",
             "20"});
-            this.xComboBox.Location = new System.Drawing.Point(87, 85);
+            this.xComboBox.Location = new System.Drawing.Point(87, 92);
             this.xComboBox.Name = "xComboBox";
-            this.xComboBox.Size = new System.Drawing.Size(62, 21);
+            this.xComboBox.Size = new System.Drawing.Size(62, 23);
             this.xComboBox.TabIndex = 4;
             this.xComboBox.SelectedIndexChanged += new System.EventHandler(this.xComboBox_SelectedIndexChanged);
             // 
             // yComboBox
             // 
+            this.yComboBox.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.yComboBox.FormattingEnabled = true;
             this.yComboBox.Items.AddRange(new object[] {
             "4",
@@ -206,15 +217,16 @@
             "18",
             "19",
             "20"});
-            this.yComboBox.Location = new System.Drawing.Point(217, 85);
+            this.yComboBox.Location = new System.Drawing.Point(217, 92);
             this.yComboBox.Name = "yComboBox";
-            this.yComboBox.Size = new System.Drawing.Size(62, 21);
+            this.yComboBox.Size = new System.Drawing.Size(62, 23);
             this.yComboBox.TabIndex = 5;
             this.yComboBox.SelectedIndexChanged += new System.EventHandler(this.yComboBox_SelectedIndexChanged);
             // 
             // wordLabel1
             // 
-            this.wordLabel1.Location = new System.Drawing.Point(16, 145);
+            this.wordLabel1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel1.Location = new System.Drawing.Point(24, 190);
             this.wordLabel1.Name = "wordLabel1";
             this.wordLabel1.Size = new System.Drawing.Size(34, 13);
             this.wordLabel1.TabIndex = 7;
@@ -223,15 +235,17 @@
             // 
             // wordTextBox1
             // 
-            this.wordTextBox1.Location = new System.Drawing.Point(53, 142);
+            this.wordTextBox1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox1.Location = new System.Drawing.Point(61, 187);
             this.wordTextBox1.Name = "wordTextBox1";
-            this.wordTextBox1.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox1.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox1.TabIndex = 6;
             this.wordTextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel2
             // 
-            this.wordLabel2.Location = new System.Drawing.Point(16, 171);
+            this.wordLabel2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel2.Location = new System.Drawing.Point(24, 222);
             this.wordLabel2.Name = "wordLabel2";
             this.wordLabel2.Size = new System.Drawing.Size(34, 13);
             this.wordLabel2.TabIndex = 9;
@@ -240,15 +254,17 @@
             // 
             // wordTextBox2
             // 
-            this.wordTextBox2.Location = new System.Drawing.Point(53, 168);
+            this.wordTextBox2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox2.Location = new System.Drawing.Point(61, 219);
             this.wordTextBox2.Name = "wordTextBox2";
-            this.wordTextBox2.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox2.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox2.TabIndex = 8;
             this.wordTextBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel3
             // 
-            this.wordLabel3.Location = new System.Drawing.Point(16, 197);
+            this.wordLabel3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel3.Location = new System.Drawing.Point(24, 254);
             this.wordLabel3.Name = "wordLabel3";
             this.wordLabel3.Size = new System.Drawing.Size(34, 13);
             this.wordLabel3.TabIndex = 11;
@@ -257,15 +273,17 @@
             // 
             // wordTextBox3
             // 
-            this.wordTextBox3.Location = new System.Drawing.Point(53, 194);
+            this.wordTextBox3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox3.Location = new System.Drawing.Point(61, 251);
             this.wordTextBox3.Name = "wordTextBox3";
-            this.wordTextBox3.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox3.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox3.TabIndex = 10;
             this.wordTextBox3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel4
             // 
-            this.wordLabel4.Location = new System.Drawing.Point(16, 223);
+            this.wordLabel4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel4.Location = new System.Drawing.Point(24, 286);
             this.wordLabel4.Name = "wordLabel4";
             this.wordLabel4.Size = new System.Drawing.Size(34, 13);
             this.wordLabel4.TabIndex = 13;
@@ -274,15 +292,17 @@
             // 
             // wordTextBox4
             // 
-            this.wordTextBox4.Location = new System.Drawing.Point(53, 220);
+            this.wordTextBox4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox4.Location = new System.Drawing.Point(61, 283);
             this.wordTextBox4.Name = "wordTextBox4";
-            this.wordTextBox4.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox4.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox4.TabIndex = 12;
             this.wordTextBox4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel5
             // 
-            this.wordLabel5.Location = new System.Drawing.Point(16, 249);
+            this.wordLabel5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel5.Location = new System.Drawing.Point(24, 318);
             this.wordLabel5.Name = "wordLabel5";
             this.wordLabel5.Size = new System.Drawing.Size(34, 13);
             this.wordLabel5.TabIndex = 15;
@@ -291,15 +311,17 @@
             // 
             // wordTextBox5
             // 
-            this.wordTextBox5.Location = new System.Drawing.Point(53, 246);
+            this.wordTextBox5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox5.Location = new System.Drawing.Point(61, 315);
             this.wordTextBox5.Name = "wordTextBox5";
-            this.wordTextBox5.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox5.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox5.TabIndex = 14;
             this.wordTextBox5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel6
             // 
-            this.wordLabel6.Location = new System.Drawing.Point(16, 275);
+            this.wordLabel6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel6.Location = new System.Drawing.Point(24, 350);
             this.wordLabel6.Name = "wordLabel6";
             this.wordLabel6.Size = new System.Drawing.Size(34, 13);
             this.wordLabel6.TabIndex = 17;
@@ -308,15 +330,17 @@
             // 
             // wordTextBox6
             // 
-            this.wordTextBox6.Location = new System.Drawing.Point(53, 272);
+            this.wordTextBox6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox6.Location = new System.Drawing.Point(61, 347);
             this.wordTextBox6.Name = "wordTextBox6";
-            this.wordTextBox6.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox6.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox6.TabIndex = 16;
             this.wordTextBox6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel7
             // 
-            this.wordLabel7.Location = new System.Drawing.Point(16, 301);
+            this.wordLabel7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel7.Location = new System.Drawing.Point(24, 382);
             this.wordLabel7.Name = "wordLabel7";
             this.wordLabel7.Size = new System.Drawing.Size(34, 13);
             this.wordLabel7.TabIndex = 19;
@@ -325,15 +349,17 @@
             // 
             // wordTextBox7
             // 
-            this.wordTextBox7.Location = new System.Drawing.Point(53, 298);
+            this.wordTextBox7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox7.Location = new System.Drawing.Point(61, 379);
             this.wordTextBox7.Name = "wordTextBox7";
-            this.wordTextBox7.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox7.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox7.TabIndex = 18;
             this.wordTextBox7.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel8
             // 
-            this.wordLabel8.Location = new System.Drawing.Point(16, 327);
+            this.wordLabel8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel8.Location = new System.Drawing.Point(24, 414);
             this.wordLabel8.Name = "wordLabel8";
             this.wordLabel8.Size = new System.Drawing.Size(34, 13);
             this.wordLabel8.TabIndex = 21;
@@ -342,15 +368,17 @@
             // 
             // wordTextBox8
             // 
-            this.wordTextBox8.Location = new System.Drawing.Point(53, 324);
+            this.wordTextBox8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox8.Location = new System.Drawing.Point(61, 411);
             this.wordTextBox8.Name = "wordTextBox8";
-            this.wordTextBox8.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox8.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox8.TabIndex = 20;
             this.wordTextBox8.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel9
             // 
-            this.wordLabel9.Location = new System.Drawing.Point(16, 353);
+            this.wordLabel9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel9.Location = new System.Drawing.Point(24, 446);
             this.wordLabel9.Name = "wordLabel9";
             this.wordLabel9.Size = new System.Drawing.Size(34, 13);
             this.wordLabel9.TabIndex = 23;
@@ -359,15 +387,17 @@
             // 
             // wordTextBox9
             // 
-            this.wordTextBox9.Location = new System.Drawing.Point(53, 350);
+            this.wordTextBox9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox9.Location = new System.Drawing.Point(61, 443);
             this.wordTextBox9.Name = "wordTextBox9";
-            this.wordTextBox9.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox9.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox9.TabIndex = 22;
             this.wordTextBox9.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel10
             // 
-            this.wordLabel10.Location = new System.Drawing.Point(16, 379);
+            this.wordLabel10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel10.Location = new System.Drawing.Point(24, 478);
             this.wordLabel10.Name = "wordLabel10";
             this.wordLabel10.Size = new System.Drawing.Size(34, 13);
             this.wordLabel10.TabIndex = 25;
@@ -376,15 +406,17 @@
             // 
             // wordTextBox10
             // 
-            this.wordTextBox10.Location = new System.Drawing.Point(53, 376);
+            this.wordTextBox10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox10.Location = new System.Drawing.Point(61, 475);
             this.wordTextBox10.Name = "wordTextBox10";
-            this.wordTextBox10.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox10.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox10.TabIndex = 24;
             this.wordTextBox10.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel11
             // 
-            this.wordLabel11.Location = new System.Drawing.Point(16, 405);
+            this.wordLabel11.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel11.Location = new System.Drawing.Point(24, 510);
             this.wordLabel11.Name = "wordLabel11";
             this.wordLabel11.Size = new System.Drawing.Size(34, 13);
             this.wordLabel11.TabIndex = 27;
@@ -393,15 +425,17 @@
             // 
             // wordTextBox11
             // 
-            this.wordTextBox11.Location = new System.Drawing.Point(53, 402);
+            this.wordTextBox11.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox11.Location = new System.Drawing.Point(61, 507);
             this.wordTextBox11.Name = "wordTextBox11";
-            this.wordTextBox11.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox11.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox11.TabIndex = 26;
             this.wordTextBox11.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel12
             // 
-            this.wordLabel12.Location = new System.Drawing.Point(16, 431);
+            this.wordLabel12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel12.Location = new System.Drawing.Point(24, 542);
             this.wordLabel12.Name = "wordLabel12";
             this.wordLabel12.Size = new System.Drawing.Size(34, 13);
             this.wordLabel12.TabIndex = 29;
@@ -410,15 +444,17 @@
             // 
             // wordTextBox12
             // 
-            this.wordTextBox12.Location = new System.Drawing.Point(53, 428);
+            this.wordTextBox12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox12.Location = new System.Drawing.Point(61, 539);
             this.wordTextBox12.Name = "wordTextBox12";
-            this.wordTextBox12.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox12.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox12.TabIndex = 28;
             this.wordTextBox12.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel24
             // 
-            this.wordLabel24.Location = new System.Drawing.Point(152, 432);
+            this.wordLabel24.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel24.Location = new System.Drawing.Point(160, 543);
             this.wordLabel24.Name = "wordLabel24";
             this.wordLabel24.Size = new System.Drawing.Size(34, 13);
             this.wordLabel24.TabIndex = 53;
@@ -427,15 +463,17 @@
             // 
             // wordTextBox24
             // 
-            this.wordTextBox24.Location = new System.Drawing.Point(189, 429);
+            this.wordTextBox24.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox24.Location = new System.Drawing.Point(197, 540);
             this.wordTextBox24.Name = "wordTextBox24";
-            this.wordTextBox24.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox24.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox24.TabIndex = 52;
             this.wordTextBox24.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel23
             // 
-            this.wordLabel23.Location = new System.Drawing.Point(152, 406);
+            this.wordLabel23.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel23.Location = new System.Drawing.Point(160, 511);
             this.wordLabel23.Name = "wordLabel23";
             this.wordLabel23.Size = new System.Drawing.Size(34, 13);
             this.wordLabel23.TabIndex = 51;
@@ -444,15 +482,17 @@
             // 
             // wordTextBox23
             // 
-            this.wordTextBox23.Location = new System.Drawing.Point(189, 403);
+            this.wordTextBox23.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox23.Location = new System.Drawing.Point(197, 508);
             this.wordTextBox23.Name = "wordTextBox23";
-            this.wordTextBox23.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox23.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox23.TabIndex = 50;
             this.wordTextBox23.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel22
             // 
-            this.wordLabel22.Location = new System.Drawing.Point(152, 380);
+            this.wordLabel22.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel22.Location = new System.Drawing.Point(160, 479);
             this.wordLabel22.Name = "wordLabel22";
             this.wordLabel22.Size = new System.Drawing.Size(34, 13);
             this.wordLabel22.TabIndex = 49;
@@ -461,15 +501,17 @@
             // 
             // wordTextBox22
             // 
-            this.wordTextBox22.Location = new System.Drawing.Point(189, 377);
+            this.wordTextBox22.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox22.Location = new System.Drawing.Point(197, 476);
             this.wordTextBox22.Name = "wordTextBox22";
-            this.wordTextBox22.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox22.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox22.TabIndex = 48;
             this.wordTextBox22.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel21
             // 
-            this.wordLabel21.Location = new System.Drawing.Point(152, 354);
+            this.wordLabel21.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel21.Location = new System.Drawing.Point(160, 447);
             this.wordLabel21.Name = "wordLabel21";
             this.wordLabel21.Size = new System.Drawing.Size(34, 13);
             this.wordLabel21.TabIndex = 47;
@@ -478,15 +520,17 @@
             // 
             // wordTextBox21
             // 
-            this.wordTextBox21.Location = new System.Drawing.Point(189, 351);
+            this.wordTextBox21.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox21.Location = new System.Drawing.Point(197, 444);
             this.wordTextBox21.Name = "wordTextBox21";
-            this.wordTextBox21.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox21.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox21.TabIndex = 46;
             this.wordTextBox21.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel20
             // 
-            this.wordLabel20.Location = new System.Drawing.Point(152, 328);
+            this.wordLabel20.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel20.Location = new System.Drawing.Point(160, 415);
             this.wordLabel20.Name = "wordLabel20";
             this.wordLabel20.Size = new System.Drawing.Size(34, 13);
             this.wordLabel20.TabIndex = 45;
@@ -495,15 +539,17 @@
             // 
             // wordTextBox20
             // 
-            this.wordTextBox20.Location = new System.Drawing.Point(189, 325);
+            this.wordTextBox20.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox20.Location = new System.Drawing.Point(197, 412);
             this.wordTextBox20.Name = "wordTextBox20";
-            this.wordTextBox20.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox20.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox20.TabIndex = 44;
             this.wordTextBox20.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel19
             // 
-            this.wordLabel19.Location = new System.Drawing.Point(152, 302);
+            this.wordLabel19.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel19.Location = new System.Drawing.Point(160, 383);
             this.wordLabel19.Name = "wordLabel19";
             this.wordLabel19.Size = new System.Drawing.Size(34, 13);
             this.wordLabel19.TabIndex = 43;
@@ -512,15 +558,17 @@
             // 
             // wordTextBox19
             // 
-            this.wordTextBox19.Location = new System.Drawing.Point(189, 299);
+            this.wordTextBox19.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox19.Location = new System.Drawing.Point(197, 380);
             this.wordTextBox19.Name = "wordTextBox19";
-            this.wordTextBox19.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox19.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox19.TabIndex = 42;
             this.wordTextBox19.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel18
             // 
-            this.wordLabel18.Location = new System.Drawing.Point(152, 276);
+            this.wordLabel18.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel18.Location = new System.Drawing.Point(160, 351);
             this.wordLabel18.Name = "wordLabel18";
             this.wordLabel18.Size = new System.Drawing.Size(34, 13);
             this.wordLabel18.TabIndex = 41;
@@ -529,15 +577,17 @@
             // 
             // wordTextBox18
             // 
-            this.wordTextBox18.Location = new System.Drawing.Point(189, 273);
+            this.wordTextBox18.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox18.Location = new System.Drawing.Point(197, 348);
             this.wordTextBox18.Name = "wordTextBox18";
-            this.wordTextBox18.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox18.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox18.TabIndex = 40;
             this.wordTextBox18.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel17
             // 
-            this.wordLabel17.Location = new System.Drawing.Point(152, 250);
+            this.wordLabel17.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel17.Location = new System.Drawing.Point(160, 319);
             this.wordLabel17.Name = "wordLabel17";
             this.wordLabel17.Size = new System.Drawing.Size(34, 13);
             this.wordLabel17.TabIndex = 39;
@@ -546,15 +596,17 @@
             // 
             // wordTextBox17
             // 
-            this.wordTextBox17.Location = new System.Drawing.Point(189, 247);
+            this.wordTextBox17.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox17.Location = new System.Drawing.Point(197, 316);
             this.wordTextBox17.Name = "wordTextBox17";
-            this.wordTextBox17.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox17.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox17.TabIndex = 38;
             this.wordTextBox17.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel16
             // 
-            this.wordLabel16.Location = new System.Drawing.Point(152, 224);
+            this.wordLabel16.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel16.Location = new System.Drawing.Point(160, 287);
             this.wordLabel16.Name = "wordLabel16";
             this.wordLabel16.Size = new System.Drawing.Size(34, 13);
             this.wordLabel16.TabIndex = 37;
@@ -563,15 +615,17 @@
             // 
             // wordTextBox16
             // 
-            this.wordTextBox16.Location = new System.Drawing.Point(189, 221);
+            this.wordTextBox16.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox16.Location = new System.Drawing.Point(197, 284);
             this.wordTextBox16.Name = "wordTextBox16";
-            this.wordTextBox16.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox16.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox16.TabIndex = 36;
             this.wordTextBox16.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel15
             // 
-            this.wordLabel15.Location = new System.Drawing.Point(152, 198);
+            this.wordLabel15.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel15.Location = new System.Drawing.Point(160, 255);
             this.wordLabel15.Name = "wordLabel15";
             this.wordLabel15.Size = new System.Drawing.Size(34, 13);
             this.wordLabel15.TabIndex = 35;
@@ -580,15 +634,17 @@
             // 
             // wordTextBox15
             // 
-            this.wordTextBox15.Location = new System.Drawing.Point(189, 195);
+            this.wordTextBox15.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox15.Location = new System.Drawing.Point(197, 252);
             this.wordTextBox15.Name = "wordTextBox15";
-            this.wordTextBox15.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox15.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox15.TabIndex = 34;
             this.wordTextBox15.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel14
             // 
-            this.wordLabel14.Location = new System.Drawing.Point(152, 172);
+            this.wordLabel14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel14.Location = new System.Drawing.Point(160, 223);
             this.wordLabel14.Name = "wordLabel14";
             this.wordLabel14.Size = new System.Drawing.Size(34, 13);
             this.wordLabel14.TabIndex = 33;
@@ -597,15 +653,17 @@
             // 
             // wordTextBox14
             // 
-            this.wordTextBox14.Location = new System.Drawing.Point(189, 169);
+            this.wordTextBox14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox14.Location = new System.Drawing.Point(197, 220);
             this.wordTextBox14.Name = "wordTextBox14";
-            this.wordTextBox14.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox14.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox14.TabIndex = 32;
             this.wordTextBox14.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // wordLabel13
             // 
-            this.wordLabel13.Location = new System.Drawing.Point(152, 146);
+            this.wordLabel13.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordLabel13.Location = new System.Drawing.Point(160, 191);
             this.wordLabel13.Name = "wordLabel13";
             this.wordLabel13.Size = new System.Drawing.Size(34, 13);
             this.wordLabel13.TabIndex = 31;
@@ -614,16 +672,17 @@
             // 
             // wordTextBox13
             // 
-            this.wordTextBox13.Location = new System.Drawing.Point(189, 143);
+            this.wordTextBox13.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordTextBox13.Location = new System.Drawing.Point(197, 188);
             this.wordTextBox13.Name = "wordTextBox13";
-            this.wordTextBox13.Size = new System.Drawing.Size(100, 20);
+            this.wordTextBox13.Size = new System.Drawing.Size(100, 21);
             this.wordTextBox13.TabIndex = 30;
             this.wordTextBox13.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.wordTextBox1_KeyPress);
             // 
             // northWestCheckBox
             // 
             this.northWestCheckBox.AutoSize = true;
-            this.northWestCheckBox.Location = new System.Drawing.Point(349, 46);
+            this.northWestCheckBox.Location = new System.Drawing.Point(349, 48);
             this.northWestCheckBox.Name = "northWestCheckBox";
             this.northWestCheckBox.Size = new System.Drawing.Size(15, 14);
             this.northWestCheckBox.TabIndex = 54;
@@ -632,7 +691,7 @@
             // northCheckBox
             // 
             this.northCheckBox.AutoSize = true;
-            this.northCheckBox.Location = new System.Drawing.Point(378, 46);
+            this.northCheckBox.Location = new System.Drawing.Point(378, 48);
             this.northCheckBox.Name = "northCheckBox";
             this.northCheckBox.Size = new System.Drawing.Size(15, 14);
             this.northCheckBox.TabIndex = 55;
@@ -641,7 +700,7 @@
             // northEastCheckBox
             // 
             this.northEastCheckBox.AutoSize = true;
-            this.northEastCheckBox.Location = new System.Drawing.Point(407, 46);
+            this.northEastCheckBox.Location = new System.Drawing.Point(407, 48);
             this.northEastCheckBox.Name = "northEastCheckBox";
             this.northEastCheckBox.Size = new System.Drawing.Size(15, 14);
             this.northEastCheckBox.TabIndex = 56;
@@ -650,7 +709,7 @@
             // westCheckBox
             // 
             this.westCheckBox.AutoSize = true;
-            this.westCheckBox.Location = new System.Drawing.Point(349, 74);
+            this.westCheckBox.Location = new System.Drawing.Point(349, 76);
             this.westCheckBox.Name = "westCheckBox";
             this.westCheckBox.Size = new System.Drawing.Size(15, 14);
             this.westCheckBox.TabIndex = 57;
@@ -659,7 +718,7 @@
             // eastCheckBox
             // 
             this.eastCheckBox.AutoSize = true;
-            this.eastCheckBox.Location = new System.Drawing.Point(407, 74);
+            this.eastCheckBox.Location = new System.Drawing.Point(407, 76);
             this.eastCheckBox.Name = "eastCheckBox";
             this.eastCheckBox.Size = new System.Drawing.Size(15, 14);
             this.eastCheckBox.TabIndex = 58;
@@ -668,7 +727,7 @@
             // southEastCheckBox
             // 
             this.southEastCheckBox.AutoSize = true;
-            this.southEastCheckBox.Location = new System.Drawing.Point(407, 103);
+            this.southEastCheckBox.Location = new System.Drawing.Point(407, 105);
             this.southEastCheckBox.Name = "southEastCheckBox";
             this.southEastCheckBox.Size = new System.Drawing.Size(15, 14);
             this.southEastCheckBox.TabIndex = 61;
@@ -677,7 +736,7 @@
             // southCheckBox
             // 
             this.southCheckBox.AutoSize = true;
-            this.southCheckBox.Location = new System.Drawing.Point(378, 103);
+            this.southCheckBox.Location = new System.Drawing.Point(378, 105);
             this.southCheckBox.Name = "southCheckBox";
             this.southCheckBox.Size = new System.Drawing.Size(15, 14);
             this.southCheckBox.TabIndex = 60;
@@ -686,7 +745,7 @@
             // southWestCheckBox
             // 
             this.southWestCheckBox.AutoSize = true;
-            this.southWestCheckBox.Location = new System.Drawing.Point(349, 103);
+            this.southWestCheckBox.Location = new System.Drawing.Point(349, 105);
             this.southWestCheckBox.Name = "southWestCheckBox";
             this.southWestCheckBox.Size = new System.Drawing.Size(15, 14);
             this.southWestCheckBox.TabIndex = 59;
@@ -694,7 +753,8 @@
             // 
             // placeWordsButton
             // 
-            this.placeWordsButton.Location = new System.Drawing.Point(477, 37);
+            this.placeWordsButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.placeWordsButton.Location = new System.Drawing.Point(459, 55);
             this.placeWordsButton.Name = "placeWordsButton";
             this.placeWordsButton.Size = new System.Drawing.Size(100, 23);
             this.placeWordsButton.TabIndex = 62;
@@ -704,7 +764,8 @@
             // 
             // clearGridButton
             // 
-            this.clearGridButton.Location = new System.Drawing.Point(689, 66);
+            this.clearGridButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearGridButton.Location = new System.Drawing.Point(671, 86);
             this.clearGridButton.Name = "clearGridButton";
             this.clearGridButton.Size = new System.Drawing.Size(100, 23);
             this.clearGridButton.TabIndex = 64;
@@ -714,7 +775,8 @@
             // 
             // unFillButton
             // 
-            this.unFillButton.Location = new System.Drawing.Point(583, 68);
+            this.unFillButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.unFillButton.Location = new System.Drawing.Point(565, 86);
             this.unFillButton.Name = "unFillButton";
             this.unFillButton.Size = new System.Drawing.Size(100, 23);
             this.unFillButton.TabIndex = 65;
@@ -724,7 +786,8 @@
             // 
             // clearWordListButton
             // 
-            this.clearWordListButton.Location = new System.Drawing.Point(689, 37);
+            this.clearWordListButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearWordListButton.Location = new System.Drawing.Point(671, 55);
             this.clearWordListButton.Name = "clearWordListButton";
             this.clearWordListButton.Size = new System.Drawing.Size(100, 23);
             this.clearWordListButton.TabIndex = 66;
@@ -734,7 +797,8 @@
             // 
             // fillButton
             // 
-            this.fillButton.Location = new System.Drawing.Point(583, 37);
+            this.fillButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.fillButton.Location = new System.Drawing.Point(565, 55);
             this.fillButton.Name = "fillButton";
             this.fillButton.Size = new System.Drawing.Size(100, 23);
             this.fillButton.TabIndex = 67;
@@ -804,14 +868,14 @@
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.openToolStripMenuItem.Text = "&Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(177, 6);
             // 
             // saveToolStripMenuItem
             // 
@@ -819,33 +883,33 @@
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveAsToolStripMenuItem.Text = "Save &As";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // pageSetupToolStripMenuItem
             // 
             this.pageSetupToolStripMenuItem.Name = "pageSetupToolStripMenuItem";
-            this.pageSetupToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.pageSetupToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pageSetupToolStripMenuItem.Text = "Page Setup...";
             this.pageSetupToolStripMenuItem.Click += new System.EventHandler(this.pageSetupToolStripMenuItem_Click);
             // 
             // printSetupToolStripMenuItem
             // 
             this.printSetupToolStripMenuItem.Name = "printSetupToolStripMenuItem";
-            this.printSetupToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.printSetupToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.printSetupToolStripMenuItem.Text = "Print Setup...";
             this.printSetupToolStripMenuItem.Click += new System.EventHandler(this.printSetupToolStripMenuItem_Click);
             // 
@@ -855,7 +919,7 @@
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.printToolStripMenuItem.Text = "&Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
@@ -864,19 +928,19 @@
             this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
             this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
             this.printPreviewToolStripMenuItem.Click += new System.EventHandler(this.printPreviewToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -893,26 +957,26 @@
             // creatingPuzzlesToolStripMenuItem
             // 
             this.creatingPuzzlesToolStripMenuItem.Name = "creatingPuzzlesToolStripMenuItem";
-            this.creatingPuzzlesToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.creatingPuzzlesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.creatingPuzzlesToolStripMenuItem.Text = "&Creating Puzzles...";
             this.creatingPuzzlesToolStripMenuItem.Click += new System.EventHandler(this.CreatingPuzzlesToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(166, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // compassLabel
             // 
             this.compassLabel.Image = global::wordsearch.Properties.Resources.compass;
-            this.compassLabel.Location = new System.Drawing.Point(366, 63);
+            this.compassLabel.Location = new System.Drawing.Point(366, 65);
             this.compassLabel.Name = "compassLabel";
             this.compassLabel.Size = new System.Drawing.Size(36, 36);
             this.compassLabel.TabIndex = 71;
@@ -936,11 +1000,58 @@
             // 
             this.printDocument.PrintPage += new System.Drawing.Printing.PrintPageEventHandler(this.printPuzzle);
             // 
+            // wordListLabel
+            // 
+            this.wordListLabel.AutoSize = true;
+            this.wordListLabel.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wordListLabel.Location = new System.Drawing.Point(122, 157);
+            this.wordListLabel.Name = "wordListLabel";
+            this.wordListLabel.Size = new System.Drawing.Size(101, 24);
+            this.wordListLabel.TabIndex = 72;
+            this.wordListLabel.Text = "Word List";
+            // 
+            // label1
+            // 
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Location = new System.Drawing.Point(444, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(344, 88);
+            this.label1.TabIndex = 74;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label2.Location = new System.Drawing.Point(329, 39);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 88);
+            this.label2.TabIndex = 75;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label3.Location = new System.Drawing.Point(19, 39);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(304, 88);
+            this.label3.TabIndex = 76;
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Location = new System.Drawing.Point(19, 146);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(304, 439);
+            this.label4.TabIndex = 77;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // wordSearchForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 628);
+            this.Controls.Add(this.wordListLabel);
             this.Controls.Add(this.compassLabel);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
@@ -1011,6 +1122,10 @@
             this.Controls.Add(this.columnsLabel);
             this.Controls.Add(this.titleLabel);
             this.Controls.Add(this.titleTextBox);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label4);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "wordSearchForm";
@@ -1118,6 +1233,11 @@
         private System.Windows.Forms.PrintDialog printDialog;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog;
         private System.Drawing.Printing.PrintDocument printDocument;
+        private System.Windows.Forms.Label wordListLabel;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 
