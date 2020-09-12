@@ -141,7 +141,7 @@
             // 
             this.titleLabel.AutoSize = true;
             this.titleLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titleLabel.Location = new System.Drawing.Point(31, 54);
+            this.titleLabel.Location = new System.Drawing.Point(26, 54);
             this.titleLabel.Name = "titleLabel";
             this.titleLabel.Size = new System.Drawing.Size(68, 15);
             this.titleLabel.TabIndex = 1;
@@ -151,7 +151,7 @@
             // 
             this.columnsLabel.AutoSize = true;
             this.columnsLabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.columnsLabel.Location = new System.Drawing.Point(34, 95);
+            this.columnsLabel.Location = new System.Drawing.Point(26, 95);
             this.columnsLabel.Name = "columnsLabel";
             this.columnsLabel.Size = new System.Drawing.Size(58, 15);
             this.columnsLabel.TabIndex = 2;
@@ -226,9 +226,9 @@
             // wordLabel1
             // 
             this.wordLabel1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel1.Location = new System.Drawing.Point(24, 190);
+            this.wordLabel1.Location = new System.Drawing.Point(26, 190);
             this.wordLabel1.Name = "wordLabel1";
-            this.wordLabel1.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel1.Size = new System.Drawing.Size(30, 13);
             this.wordLabel1.TabIndex = 7;
             this.wordLabel1.Text = "1";
             this.wordLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -245,9 +245,9 @@
             // wordLabel2
             // 
             this.wordLabel2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel2.Location = new System.Drawing.Point(24, 222);
+            this.wordLabel2.Location = new System.Drawing.Point(26, 222);
             this.wordLabel2.Name = "wordLabel2";
-            this.wordLabel2.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel2.Size = new System.Drawing.Size(30, 13);
             this.wordLabel2.TabIndex = 9;
             this.wordLabel2.Text = "2";
             this.wordLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -264,9 +264,9 @@
             // wordLabel3
             // 
             this.wordLabel3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel3.Location = new System.Drawing.Point(24, 254);
+            this.wordLabel3.Location = new System.Drawing.Point(26, 254);
             this.wordLabel3.Name = "wordLabel3";
-            this.wordLabel3.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel3.Size = new System.Drawing.Size(30, 13);
             this.wordLabel3.TabIndex = 11;
             this.wordLabel3.Text = "3";
             this.wordLabel3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -283,9 +283,9 @@
             // wordLabel4
             // 
             this.wordLabel4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel4.Location = new System.Drawing.Point(24, 286);
+            this.wordLabel4.Location = new System.Drawing.Point(26, 286);
             this.wordLabel4.Name = "wordLabel4";
-            this.wordLabel4.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel4.Size = new System.Drawing.Size(30, 13);
             this.wordLabel4.TabIndex = 13;
             this.wordLabel4.Text = "4";
             this.wordLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -302,9 +302,9 @@
             // wordLabel5
             // 
             this.wordLabel5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel5.Location = new System.Drawing.Point(24, 318);
+            this.wordLabel5.Location = new System.Drawing.Point(26, 318);
             this.wordLabel5.Name = "wordLabel5";
-            this.wordLabel5.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel5.Size = new System.Drawing.Size(30, 13);
             this.wordLabel5.TabIndex = 15;
             this.wordLabel5.Text = "5";
             this.wordLabel5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -321,9 +321,9 @@
             // wordLabel6
             // 
             this.wordLabel6.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel6.Location = new System.Drawing.Point(24, 350);
+            this.wordLabel6.Location = new System.Drawing.Point(26, 350);
             this.wordLabel6.Name = "wordLabel6";
-            this.wordLabel6.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel6.Size = new System.Drawing.Size(30, 13);
             this.wordLabel6.TabIndex = 17;
             this.wordLabel6.Text = "6";
             this.wordLabel6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -340,9 +340,9 @@
             // wordLabel7
             // 
             this.wordLabel7.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel7.Location = new System.Drawing.Point(24, 382);
+            this.wordLabel7.Location = new System.Drawing.Point(26, 382);
             this.wordLabel7.Name = "wordLabel7";
-            this.wordLabel7.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel7.Size = new System.Drawing.Size(30, 13);
             this.wordLabel7.TabIndex = 19;
             this.wordLabel7.Text = "7";
             this.wordLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -359,9 +359,9 @@
             // wordLabel8
             // 
             this.wordLabel8.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel8.Location = new System.Drawing.Point(24, 414);
+            this.wordLabel8.Location = new System.Drawing.Point(26, 414);
             this.wordLabel8.Name = "wordLabel8";
-            this.wordLabel8.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel8.Size = new System.Drawing.Size(30, 13);
             this.wordLabel8.TabIndex = 21;
             this.wordLabel8.Text = "8";
             this.wordLabel8.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -378,9 +378,9 @@
             // wordLabel9
             // 
             this.wordLabel9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel9.Location = new System.Drawing.Point(24, 446);
+            this.wordLabel9.Location = new System.Drawing.Point(26, 446);
             this.wordLabel9.Name = "wordLabel9";
-            this.wordLabel9.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel9.Size = new System.Drawing.Size(30, 13);
             this.wordLabel9.TabIndex = 23;
             this.wordLabel9.Text = "9";
             this.wordLabel9.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -397,9 +397,9 @@
             // wordLabel10
             // 
             this.wordLabel10.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel10.Location = new System.Drawing.Point(24, 478);
+            this.wordLabel10.Location = new System.Drawing.Point(26, 478);
             this.wordLabel10.Name = "wordLabel10";
-            this.wordLabel10.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel10.Size = new System.Drawing.Size(30, 13);
             this.wordLabel10.TabIndex = 25;
             this.wordLabel10.Text = "10";
             this.wordLabel10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -416,9 +416,9 @@
             // wordLabel11
             // 
             this.wordLabel11.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel11.Location = new System.Drawing.Point(24, 510);
+            this.wordLabel11.Location = new System.Drawing.Point(26, 510);
             this.wordLabel11.Name = "wordLabel11";
-            this.wordLabel11.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel11.Size = new System.Drawing.Size(30, 13);
             this.wordLabel11.TabIndex = 27;
             this.wordLabel11.Text = "11";
             this.wordLabel11.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -435,9 +435,9 @@
             // wordLabel12
             // 
             this.wordLabel12.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel12.Location = new System.Drawing.Point(24, 542);
+            this.wordLabel12.Location = new System.Drawing.Point(26, 542);
             this.wordLabel12.Name = "wordLabel12";
-            this.wordLabel12.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel12.Size = new System.Drawing.Size(30, 13);
             this.wordLabel12.TabIndex = 29;
             this.wordLabel12.Text = "12";
             this.wordLabel12.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -454,9 +454,9 @@
             // wordLabel24
             // 
             this.wordLabel24.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel24.Location = new System.Drawing.Point(160, 543);
+            this.wordLabel24.Location = new System.Drawing.Point(167, 543);
             this.wordLabel24.Name = "wordLabel24";
-            this.wordLabel24.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel24.Size = new System.Drawing.Size(25, 13);
             this.wordLabel24.TabIndex = 53;
             this.wordLabel24.Text = "24";
             this.wordLabel24.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -473,9 +473,9 @@
             // wordLabel23
             // 
             this.wordLabel23.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel23.Location = new System.Drawing.Point(160, 511);
+            this.wordLabel23.Location = new System.Drawing.Point(167, 511);
             this.wordLabel23.Name = "wordLabel23";
-            this.wordLabel23.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel23.Size = new System.Drawing.Size(25, 13);
             this.wordLabel23.TabIndex = 51;
             this.wordLabel23.Text = "23";
             this.wordLabel23.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -492,9 +492,9 @@
             // wordLabel22
             // 
             this.wordLabel22.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel22.Location = new System.Drawing.Point(160, 479);
+            this.wordLabel22.Location = new System.Drawing.Point(167, 479);
             this.wordLabel22.Name = "wordLabel22";
-            this.wordLabel22.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel22.Size = new System.Drawing.Size(25, 13);
             this.wordLabel22.TabIndex = 49;
             this.wordLabel22.Text = "22";
             this.wordLabel22.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -511,9 +511,9 @@
             // wordLabel21
             // 
             this.wordLabel21.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel21.Location = new System.Drawing.Point(160, 447);
+            this.wordLabel21.Location = new System.Drawing.Point(167, 447);
             this.wordLabel21.Name = "wordLabel21";
-            this.wordLabel21.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel21.Size = new System.Drawing.Size(25, 13);
             this.wordLabel21.TabIndex = 47;
             this.wordLabel21.Text = "21";
             this.wordLabel21.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -530,9 +530,9 @@
             // wordLabel20
             // 
             this.wordLabel20.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel20.Location = new System.Drawing.Point(160, 415);
+            this.wordLabel20.Location = new System.Drawing.Point(167, 415);
             this.wordLabel20.Name = "wordLabel20";
-            this.wordLabel20.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel20.Size = new System.Drawing.Size(25, 13);
             this.wordLabel20.TabIndex = 45;
             this.wordLabel20.Text = "20";
             this.wordLabel20.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -549,9 +549,9 @@
             // wordLabel19
             // 
             this.wordLabel19.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel19.Location = new System.Drawing.Point(160, 383);
+            this.wordLabel19.Location = new System.Drawing.Point(167, 383);
             this.wordLabel19.Name = "wordLabel19";
-            this.wordLabel19.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel19.Size = new System.Drawing.Size(25, 13);
             this.wordLabel19.TabIndex = 43;
             this.wordLabel19.Text = "19";
             this.wordLabel19.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -568,9 +568,9 @@
             // wordLabel18
             // 
             this.wordLabel18.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel18.Location = new System.Drawing.Point(160, 351);
+            this.wordLabel18.Location = new System.Drawing.Point(167, 351);
             this.wordLabel18.Name = "wordLabel18";
-            this.wordLabel18.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel18.Size = new System.Drawing.Size(25, 13);
             this.wordLabel18.TabIndex = 41;
             this.wordLabel18.Text = "18";
             this.wordLabel18.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -587,9 +587,9 @@
             // wordLabel17
             // 
             this.wordLabel17.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel17.Location = new System.Drawing.Point(160, 319);
+            this.wordLabel17.Location = new System.Drawing.Point(167, 319);
             this.wordLabel17.Name = "wordLabel17";
-            this.wordLabel17.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel17.Size = new System.Drawing.Size(25, 13);
             this.wordLabel17.TabIndex = 39;
             this.wordLabel17.Text = "17";
             this.wordLabel17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -606,9 +606,9 @@
             // wordLabel16
             // 
             this.wordLabel16.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel16.Location = new System.Drawing.Point(160, 287);
+            this.wordLabel16.Location = new System.Drawing.Point(167, 287);
             this.wordLabel16.Name = "wordLabel16";
-            this.wordLabel16.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel16.Size = new System.Drawing.Size(25, 13);
             this.wordLabel16.TabIndex = 37;
             this.wordLabel16.Text = "16";
             this.wordLabel16.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -625,9 +625,9 @@
             // wordLabel15
             // 
             this.wordLabel15.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel15.Location = new System.Drawing.Point(160, 255);
+            this.wordLabel15.Location = new System.Drawing.Point(167, 255);
             this.wordLabel15.Name = "wordLabel15";
-            this.wordLabel15.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel15.Size = new System.Drawing.Size(25, 13);
             this.wordLabel15.TabIndex = 35;
             this.wordLabel15.Text = "15";
             this.wordLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -644,9 +644,9 @@
             // wordLabel14
             // 
             this.wordLabel14.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel14.Location = new System.Drawing.Point(160, 223);
+            this.wordLabel14.Location = new System.Drawing.Point(167, 223);
             this.wordLabel14.Name = "wordLabel14";
-            this.wordLabel14.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel14.Size = new System.Drawing.Size(25, 13);
             this.wordLabel14.TabIndex = 33;
             this.wordLabel14.Text = "14";
             this.wordLabel14.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -663,9 +663,9 @@
             // wordLabel13
             // 
             this.wordLabel13.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wordLabel13.Location = new System.Drawing.Point(160, 191);
+            this.wordLabel13.Location = new System.Drawing.Point(167, 191);
             this.wordLabel13.Name = "wordLabel13";
-            this.wordLabel13.Size = new System.Drawing.Size(34, 13);
+            this.wordLabel13.Size = new System.Drawing.Size(25, 13);
             this.wordLabel13.TabIndex = 31;
             this.wordLabel13.Text = "13";
             this.wordLabel13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -858,7 +858,7 @@
             this.newToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
             this.newToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.newToolStripMenuItem.Text = "&New";
             this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
@@ -868,14 +868,14 @@
             this.openToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.openToolStripMenuItem.Text = "&Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(143, 6);
             // 
             // saveToolStripMenuItem
             // 
@@ -883,33 +883,33 @@
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
             this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.saveAsToolStripMenuItem.Text = "Save &As";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(143, 6);
             // 
             // pageSetupToolStripMenuItem
             // 
             this.pageSetupToolStripMenuItem.Name = "pageSetupToolStripMenuItem";
-            this.pageSetupToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pageSetupToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.pageSetupToolStripMenuItem.Text = "Page Setup...";
             this.pageSetupToolStripMenuItem.Click += new System.EventHandler(this.pageSetupToolStripMenuItem_Click);
             // 
             // printSetupToolStripMenuItem
             // 
             this.printSetupToolStripMenuItem.Name = "printSetupToolStripMenuItem";
-            this.printSetupToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.printSetupToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.printSetupToolStripMenuItem.Text = "Print Setup...";
             this.printSetupToolStripMenuItem.Click += new System.EventHandler(this.printSetupToolStripMenuItem_Click);
             // 
@@ -919,7 +919,7 @@
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.printToolStripMenuItem.Text = "&Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
@@ -928,19 +928,19 @@
             this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
             this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
             this.printPreviewToolStripMenuItem.Click += new System.EventHandler(this.printPreviewToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(146, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -957,19 +957,19 @@
             // creatingPuzzlesToolStripMenuItem
             // 
             this.creatingPuzzlesToolStripMenuItem.Name = "creatingPuzzlesToolStripMenuItem";
-            this.creatingPuzzlesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.creatingPuzzlesToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.creatingPuzzlesToolStripMenuItem.Text = "&Creating Puzzles...";
             this.creatingPuzzlesToolStripMenuItem.Click += new System.EventHandler(this.CreatingPuzzlesToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(166, 6);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
